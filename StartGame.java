@@ -15,7 +15,7 @@ class StartGame extends JFrame implements ActionListener
 			setLayout(new BorderLayout());
 			setContentPane(new JLabel(new ImageIcon("l.jpg")));
 			setLayout(new FlowLayout());
-			b=new JButton("Sign In");
+			b=new JButton("Sign In");             //BUTTON FOR SIGN IN
 			b1=new JButton("Sign Up");
 			l=new MyLabel("User Id");
 			l1=new MyLabel("Password");
